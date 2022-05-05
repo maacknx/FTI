@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "name": "renan",
+      "role": "guest"
+    },
+    {
+      "name": "daniel",
+      "role": "cordenador",
+      "id": 4
+    },
+    {
+      "name": "regis",
+      "role": "ceo",
+      "id": 5
+    }
+  ],
+  "logs": [
+    {
+      "logs": "created user hgfhfof role jhgjhgg on 2022/05/05 2:59",
+      "id": 3
+    },
+    {
+      "logs": "deleted user hgfhfof role jhgjhgg on 2022/05/05 3:21",
+      "id": 4
+    },
+    {
+      "logs": "updated user soldierof role frontier on 2022/05/05 3:22",
+      "id": 5
+    },
+    {
+      "logs": "deleted user hghgfhgf of role jhgjhgjhg on 2022/05/05 3:23",
+      "id": 6
+    },
+    {
+      "logs": "deleted user hhhhhhh of role jjjjjjjjjj on 2022/05/05 3:23",
+      "id": 7
+    },
+    {
+      "logs": "deleted user soldier of role frontier on 2022/05/05 3:23",
+      "id": 8
+    },
+    {
+      "logs": "deleted user zica of role do pantano on 2022/05/05 3:23",
+      "id": 9
+    }
+  ]
+}
