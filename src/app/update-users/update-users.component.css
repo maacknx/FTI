@@ -1,0 +1,9 @@
+.matRowClassBlue:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.matRowClassGray:hover {
+    background-color: lightgray;
+    color: white;
+}

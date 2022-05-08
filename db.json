@@ -1,0 +1,214 @@
+{
+  "users": [
+    {
+      "id": 15,
+      "name": "Dhyego Argemiro",
+      "role": "admin",
+      "birthday": "1995-04-14T03:00:00.000Z",
+      "salary": "$12,132.00",
+      "phone": "78999999999",
+      "email": "maacknx321@hotmail.com"
+    },
+    {
+      "id": 16,
+      "name": "Jansnd",
+      "role": "Jssnsn",
+      "birthday": "1990-05-12T03:00:00.000Z",
+      "salary": "$349,283,838.00",
+      "phone": "43996240989",
+      "email": "maacknxx@gmail.com"
+    },
+    {
+      "id": 17,
+      "name": "renan dos santos",
+      "role": "Jssnsn",
+      "birthday": "1999-06-06T03:00:00.000Z",
+      "salary": "$349,283,838.00",
+      "phone": "21412421443",
+      "email": "2131312@teste.com"
+    },
+    {
+      "name": "Cleusa Bertina",
+      "role": "Dona do pedaço",
+      "birthday": "1965-01-17T03:00:00.000Z",
+      "salary": "$20,000.00",
+      "phone": "21441242144",
+      "email": "cleusabertina@hotmail.com",
+      "id": 18
+    }
+  ],
+  "logs": [
+    {
+      "logs": "created user hgfhfof role jhgjhgg on 2022/05/05 2:59",
+      "id": 3
+    },
+    {
+      "logs": "deleted user hgfhfof role jhgjhgg on 2022/05/05 3:21",
+      "id": 4
+    },
+    {
+      "logs": "updated user soldierof role frontier on 2022/05/05 3:22",
+      "id": 5
+    },
+    {
+      "logs": "deleted user hghgfhgf of role jhgjhgjhg on 2022/05/05 3:23",
+      "id": 6
+    },
+    {
+      "logs": "deleted user hhhhhhh of role jjjjjjjjjj on 2022/05/05 3:23",
+      "id": 7
+    },
+    {
+      "logs": "deleted user soldier of role frontier on 2022/05/05 3:23",
+      "id": 8
+    },
+    {
+      "logs": "deleted user zica of role do pantano on 2022/05/05 3:23",
+      "id": 9
+    },
+    {
+      "logs": "updated user renan dos santos of role admin on 2022/05/06 10:25",
+      "id": 10
+    },
+    {
+      "logs": "updated user ola ola of role test zz on 2022/05/06 12:13",
+      "id": 11
+    },
+    {
+      "logs": "created user client6 of role role on 2022/05/06 12:13",
+      "id": 12
+    },
+    {
+      "logs": "created user client7 of role role on 2022/05/06 12:13",
+      "id": 13
+    },
+    {
+      "logs": "created user client8 of role role on 2022/05/06 12:13",
+      "id": 14
+    },
+    {
+      "logs": "created user client9 of role role on 2022/05/06 12:13",
+      "id": 15
+    },
+    {
+      "logs": "deleted user client8 of role role on 2022/05/06 12:13",
+      "id": 16
+    },
+    {
+      "logs": "created user client10 of role role on 2022/05/06 12:13",
+      "id": 17
+    },
+    {
+      "logs": "created user Dhyego Santos of role admin on 2022/05/06 2:13",
+      "id": 18
+    },
+    {
+      "logs": "created user Dhyego Santos of role admin on 2022/05/06 2:18",
+      "id": 19
+    },
+    {
+      "logs": "deleted user renan dos santos of role admin on 2022/05/06 2:19",
+      "id": 20
+    },
+    {
+      "logs": "deleted user daniel of role cordenador on 2022/05/06 2:19",
+      "id": 21
+    },
+    {
+      "logs": "deleted user regis of role ceo on 2022/05/06 2:19",
+      "id": 22
+    },
+    {
+      "logs": "deleted user client6 of role role on 2022/05/06 2:19",
+      "id": 23
+    },
+    {
+      "logs": "deleted user client7 of role role on 2022/05/06 2:19",
+      "id": 24
+    },
+    {
+      "logs": "deleted user client9 of role role on 2022/05/06 2:19",
+      "id": 25
+    },
+    {
+      "logs": "deleted user client10 of role role on 2022/05/06 2:19",
+      "id": 26
+    },
+    {
+      "logs": "created user Dhyego Santos of role role on 2022/05/06 2:20",
+      "id": 27
+    },
+    {
+      "logs": "created user Dhyego Argemiro Francisco dos Santos of role role on 2022/05/06 2:23",
+      "id": 28
+    },
+    {
+      "logs": "deleted user Dhyego Santos of role admin on 2022/05/06 2:26",
+      "id": 29
+    },
+    {
+      "logs": "deleted user Dhyego Santos of role admin on 2022/05/06 2:26",
+      "id": 30
+    },
+    {
+      "logs": "deleted user Dhyego Santos of role role on 2022/05/06 2:26",
+      "id": 31
+    },
+    {
+      "logs": "created user Dhyego Argemiro Francisco dos Santos of role admin on 2022/05/06 2:36",
+      "id": 32
+    },
+    {
+      "logs": "deleted user Dhyego Argemiro Francisco dos Santos of role role on 2022/05/06 2:36",
+      "id": 33
+    },
+    {
+      "logs": "updated user Dhyego Argemiro of role admin on 2022/05/06 2:48",
+      "id": 34
+    },
+    {
+      "logs": "created user Jansnd of role Jssnsn on 2022/05/06 3:04",
+      "id": 35
+    },
+    {
+      "logs": "updated user Dhyego Argemiro of role admin on 2022/05/06 4:45",
+      "id": 36
+    },
+    {
+      "logs": "updated user Jansnd of role Jssnsn on 2022/05/06 4:47",
+      "id": 37
+    },
+    {
+      "logs": "updated user Jansnd of role Jssnsn on 2022/05/06 4:47",
+      "id": 38
+    },
+    {
+      "logs": "updated user Jansnd of role Jssnsn on 2022/05/06 4:50",
+      "id": 39
+    },
+    {
+      "logs": "created user renan dos santos of role Jssnsn on 2022/05/06 4:51",
+      "id": 40
+    },
+    {
+      "logs": "updated user renan dos santos of role Jssnsn on 2022/05/06 4:55",
+      "id": 41
+    },
+    {
+      "logs": "updated user Dhyego Argemiro of role admin on 2022/05/06 4:56",
+      "id": 42
+    },
+    {
+      "logs": "updated user Dhyego Argemiro of role admin on 2022/05/08 9:25",
+      "id": 43
+    },
+    {
+      "logs": "updated user renan dos santos of role Jssnsn on 2022/05/08 9:25",
+      "id": 44
+    },
+    {
+      "logs": "created user Cleusa Bertina of role Dona do pedaço on 2022/05/08 9:27",
+      "id": 45
+    }
+  ]
+}

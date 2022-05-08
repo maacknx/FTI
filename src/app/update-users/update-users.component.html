@@ -1,0 +1,104 @@
+<table mat-table [dataSource]="users" class="mat-elevation-z8" style="width: 70%;float:left" #delTable>
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <ng-container matColumnDef="Id">
+      <th mat-header-cell *matHeaderCellDef> Id </th>
+      <td mat-cell *matCellDef="let user of users"> {{user.id}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="Name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let user of users"> {{user.name}} </td>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="Role">
+      <th mat-header-cell *matHeaderCellDef> Role </th>
+      <td mat-cell *matCellDef="let user of users"> {{user.role}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="Birthday">
+      <th mat-header-cell *matHeaderCellDef> Birthday </th>
+      <td mat-cell *matCellDef="let user of users"> {{ user.birthday | date}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Salary">
+      <th mat-header-cell *matHeaderCellDef> Salary </th>
+      <td mat-cell *matCellDef="let user of users" > {{user.salary}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="Phone">
+      <th mat-header-cell *matHeaderCellDef> Phone </th>
+      <td mat-cell *matCellDef="let user of users"> {{user.phone | mask: '(00) 0 0000-0000'}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Email">
+      <th mat-header-cell *matHeaderCellDef> Email </th>
+      <td mat-cell *matCellDef="let user of users"> {{user.email}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;let user of users" [ngClass]="(user.id % 2) ? 'matRowClassBlue' : 'matRowClassGray'" (click)="sendToSideForm(row)"></tr>
+
+  </table>
+
+  <div appearance="outline" style="border: 1px solid gray;border-radius: 5px;width: 300px; height: 600px;float:left;margin-left: 100px;">
+  
+    <form [formGroup]="cadastroForm" (ngSubmit)="onTrySubmit()">
+      <div style="font-family: 'Courier New', Courier, monospace;margin-left: 10px;margin-top: 10px">
+        <h2>Id: <label>{{idLabel}}</label></h2>
+      </div>
+      <div>
+        <mat-form-field class="example-full-width" appearance="fill" style="width: 100%">
+          <mat-label>Name</mat-label>
+          <input matInput id="name" type="text" formControlName="name" required #nameInput>
+        </mat-form-field>
+      </div>
+    
+      <div>       
+        <mat-form-field class="example-full-width" appearance="fill" style="width: 100%">
+          <mat-label>Role</mat-label>
+          <input matInput id="role" type="text" formControlName="role" required #roleInput> 
+        </mat-form-field>
+      </div>
+    
+      <div>
+        <mat-form-field appearance="fill" style="width: 100%">
+          <mat-label>Birthday (mm/dd/yyyy)</mat-label>
+          <input formControlName="birthday" matInput [matDatepicker]="picker">
+          <!--<mat-hint>MM/DD/YYYY</mat-hint>-->
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+      </div>
+    
+      <div>       
+        <mat-form-field class="example-full-width" appearance="fill" style="width: 100%">
+          <mat-label>Salary</mat-label>
+          <input matInput id="salary" type="text" formControlName="salary" required #salaryInput> 
+        </mat-form-field>
+      </div>
+
+      <div>
+        <mat-form-field class="example-full-width" appearance="fill" style="width: 100%">
+          <mat-label>Phone</mat-label>
+          <input matInput id="phone" type="text" formControlName="phone" required #phoneInput  mask='(00) 9 0000-0000'>
+        </mat-form-field>
+      </div>
+    
+      <div>       
+        <mat-form-field class="example-full-width" appearance="fill" style="width: 100%">
+          <mat-label>Email</mat-label>
+          <input matInput id="email" type="text" formControlName="email" required #emailInput> 
+        </mat-form-field>
+      </div>
+      <button mat-button class="button" type="submit" (click)="onUpdateUsers()" required>Salvar Edição</button>
+    
+    </form>
+
+  </div>
+  
